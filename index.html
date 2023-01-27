@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Resolve a Quadratic Equation</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+  </main>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Resolver una ecuacion cuadratica</h1>
+      <div class="row center">
+        <h5>Por favor ingresa los coeficientes <strong>a</strong>, <strong>b</strong> y <strong>c</strong> de la
+          ecuacion
+          cuadratica de la forma <strong>ax&#x00B2; + bx + c = 0</strong></h5>
+      </div>
+      <div class="row center">
+        <form class="col s12 center-align">
+          <div class="row">
+            <div id="inputA" class="input-field col s4">
+              <i class=" material-icons prefix">dialpad</i>
+              <input id="a" name="a" type="number" required>
+              <label for="a">Valor de A</label>
+            </div>
+
+            <div id="inputB" class="input-field col s4">
+              <i class=" material-icons prefix">dialpad</i>
+              <input id="b" name="b" type="number" required>
+              <label for="b">Valor de B</label>
+            </div>
+
+            <div id="inputC" class="input-field col s4">
+              <i class=" material-icons prefix">dialpad</i>
+              <input id="c" name="c" type="number" required>
+              <label for="c">Valor de C</label>
+            </div>
+          </div>
+
+          <div class="row center">
+            <div class="col-6 center-align">
+              <button id="calcBtn" class="btn waves-effect waves-light orange">Calcular
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+
+          <div class="row center">
+            <div class="col-6 center-align">
+              <h5 id="resultDisplay">X = o X = </h5>
+            </div>
+          </div>
+        </form>
+      </div>
+      <br><br>
+    </div>
+  </div>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Vanilla JS code -->
+  <script src="./index.js"></script>
+</body>
+
+
+</html>
